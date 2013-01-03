@@ -14,15 +14,15 @@ you send a message in that channel.
 
 Just install the cinch gem and download the script.
 
-		gem install cinch
-		wget http://github.com/holdtotherod/IRCPiLedOn/master/irc_piled_on.rb
+	gem install cinch
+	wget http://github.com/holdtotherod/IRCPiLedOn/master/irc_piled_on.rb
 
 ## Usage
 
 Run the script. Usage: 
 
-		./irc_piled_on.rb <nick_to_notify> <server_url> <channel> <channel_password(optional)>
+	./irc_piled_on.rb <nick_to_notify> <server_url> <channel> <channel_password(optional)>
 
 Example:
 
-		./irc_piled_on.rb stephenl irc.freenode.net canvas-lms
+	./irc_piled_on.rb stephenl irc.freenode.net canvas-lms
