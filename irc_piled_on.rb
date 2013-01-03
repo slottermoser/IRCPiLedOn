@@ -27,7 +27,7 @@ set_led "000"
 bot = Cinch::Bot.new do
   configure do |c|
     c.server = server_url
-    c.channels = [channel]
+    c.channels = ["#" + channel]
     c.password = channel_password
     c.nick = "#{notify_user}_notifier"
   end
